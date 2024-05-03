@@ -1,5 +1,7 @@
 import FeedCard from "@/components/FeedCard";
 import LeftSideBar from "@/components/LeftSideBar";
+import RightSideBar from "@/components/RightSideBar";
+import { GoogleLogin } from "@react-oauth/google";
 
 export default function Home() {
   return (
@@ -10,7 +12,9 @@ export default function Home() {
       <div className="col-span-6 border-l-[1px] border-r-[1px] border-gray-400 border-opacity-15 h-screen overflow-scroll">
         <FeedCard />
       </div>
-      <div className="col-span-3 "></div>
+      <div className="col-span-3 p-5">
+        <RightSideBar />
+      </div>
     </div>
   );
 }
