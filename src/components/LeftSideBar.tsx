@@ -43,9 +43,9 @@ const SideBarMenuItem: SideBarButton[] = [
 ];
 const LeftSideBar = () => {
   return (
-    <div className="flex flex-col justify-start pt-8">
+    <div className="flex flex-col justify-start pt-2">
       <div className="hover:bg-gray-600 w-fit h-fit p-2 rounded-full flex items-center cursor-pointer transition-all">
-        <BsTwitter className="text-3xl" />
+        <BsTwitter className="text-2xl" />
       </div>
       <div className="space-y-2 pt-8">
         {SideBarMenuItem.map((item, index) => (
